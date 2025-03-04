@@ -1,0 +1,33 @@
+.footer {
+    height: 292px;
+    background-color: var(--black);
+}
+.footer__content {
+    height: 292px;
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 190px 0px 61px;
+}
+
+.footer__details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--grey);
+}
+
+.footer__details__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__details__text_icon {
+    display: flex;
+    gap: 15px;
+}
+
+.footer__details__text-item_decoration {
+    text-decoration: underline;
+}

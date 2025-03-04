@@ -1,0 +1,39 @@
+.logo__text {
+    display: flex;
+    gap: 50px;
+}
+
+.logo__img {
+    width: 127px;
+    height: 40px;
+    margin-left: 61px;
+}
+
+.logo__text-item {
+    font-family: Fira Sans Condensed;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+}
+
+.logo__contact {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.logo__contact__phone {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.logo__contact__phone_number {
+    font-family: Fira Sans Condensed;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+}
+

@@ -1,0 +1,56 @@
+.header {
+    height: 743px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 49px;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.header__banner__img {
+    width: 1530px;
+    height: 619px;
+}
+
+.header__banner__title {
+    font-family: Fira Sans Condensed;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    letter-spacing: 0%;
+    color: var(--white);
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 165px;
+    left: 130px;
+}
+
+.header__banner__desription {
+    font-family: Fira Sans Condensed;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33.6px;
+    letter-spacing: 0%;
+    color: var(--white);
+    position: absolute;
+    top: 333px;
+    left: 130px;
+}

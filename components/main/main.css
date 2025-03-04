@@ -1,0 +1,22 @@
+
+
+.main__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main__bottom__title {
+    font-family: Fira Sans Condensed;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52.8px;
+    letter-spacing: 0%;
+    margin-left: 61px;
+}
+
+.main__bottom__card-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}

@@ -1,0 +1,28 @@
+@import '../../components/header/header.css';
+@import '../../components/main/main.css';
+@import '../../components/footer/footer.css';
+@import '../../components/page/page.css';
+@import '../../components/container/container.css';
+@import '../../components/logo/logo.css';
+@import '../../assets/fonts/fonts.css';
+@import '../../components/button/button.css';
+@import '../../components/card/card.css';
+@import '../../components/modal/modal.css';
+
+
+
+:root {
+    --white: white;
+    --red: #C3002F;
+    --black: #151414;
+    --grey: #DCDCDC;
+    --grey-2: rgba(21, 20, 20, 0.7);
+    --grey-3: rgba(74, 74, 74, 1);
+
+
+}
+
+
+html, body {
+    height: 100%;
+}
