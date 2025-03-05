@@ -5,3 +5,8 @@
     row-gap: 100px;
 }
 
+@media screen and (max-width: 768px) {
+    .page {
+        row-gap: 50px;
+    }
+}

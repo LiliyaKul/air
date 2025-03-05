@@ -6,7 +6,6 @@
 .logo__img {
     width: 127px;
     height: 40px;
-    margin-left: 61px;
 }
 
 .logo__text-item {
@@ -37,3 +36,8 @@
     letter-spacing: 0%;
 }
 
+@media screen and (max-width: 768px) {
+    .logo__text {
+        display: none;
+    }
+}

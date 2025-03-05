@@ -15,6 +15,11 @@
     flex-direction: column;
     gap: 20px;
     color: var(--grey);
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 0%;
 }
 
 .footer__details__text {
@@ -30,4 +35,23 @@
 
 .footer__details__text-item_decoration {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        height: 350px;
+    }
+    .footer__details {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .footer__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+        padding: 20px 50px;
+        margin: auto;
+    }
 }

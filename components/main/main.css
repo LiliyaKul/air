@@ -1,12 +1,10 @@
-
-
-.main__bottom {
+.main__content {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.main__bottom__title {
+.main__title {
     font-family: Fira Sans Condensed;
     font-weight: 700;
     font-size: 48px;
@@ -15,8 +13,20 @@
     margin-left: 61px;
 }
 
-.main__bottom__card-list {
+.main__card-list {
     display: flex;
     gap: 30px;
     align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .main__card-list {
+        object-fit: cover;
+        align-self: center;
+    }
+    .main__title {
+        font-size: 40px;
+        line-height: 50px;
+        align-self: center;
+    }
 }

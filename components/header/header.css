@@ -24,7 +24,7 @@
 }
 
 .header__banner__img {
-    width: 1530px;
+    width: 100%;
     height: 619px;
 }
 
@@ -53,4 +53,23 @@
     position: absolute;
     top: 333px;
     left: 130px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin-bottom: 0px;
+    }
+    .header__banner__img {
+        object-fit: cover;
+    }
+    .header__banner__title {
+        font-size: 52px;
+        line-height: 60px;
+        left: 80px;
+    }
+    .header__banner__desription {
+        font-size: 24px;
+        line-height: 28px;
+        left: 80px;
+    }
 }

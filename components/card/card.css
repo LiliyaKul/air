@@ -2,3 +2,8 @@
     position: relative;
 }
 
+@media screen and (max-width: 768px) {
+    .card-item_media {
+        display: none;
+    }
+}

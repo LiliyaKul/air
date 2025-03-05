@@ -14,7 +14,6 @@
 .button_small {
     width: 172px;
     height: 45px;
-    margin-right: 61px;
 }
 
 .button_small_modal {
@@ -37,4 +36,11 @@
     position: absolute;
     top: 316px;
     left: 67px;
+}
+
+@media screen and (max-width: 768px) {
+    .button_medium {
+        left: 100px;
+    }
+    
 }
