@@ -40,7 +40,25 @@
 
 @media screen and (max-width: 768px) {
     .button_medium {
-        left: 100px;
+        width: 120px;
+        height: 30px;
+        top: 120px;
+        left: 30px;
+    }
+    .button_small {
+        width: 120px;
+        height: 30px;
+    }
+    .button_large {
+        width: 120px;
+        height: 40px;
+        position: absolute;
+        top: 160px;
+        left: 30px;
+    }
+    .button {
+        font-size: 12px;
+        line-height: 10px;
     }
     
 }

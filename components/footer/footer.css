@@ -39,19 +39,23 @@
 
 @media screen and (max-width: 768px) {
     .footer {
-        height: 350px;
-    }
-    .footer__details {
-        font-size: 12px;
-        line-height: 12px;
+        height: 140px;
     }
     .footer__content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        row-gap: 20px;
-        column-gap: 20px;
-        padding: 20px 50px;
+        height: 140px;
+        justify-content: center;
+        gap: 40px;
+    }
+    .footer__details {
+        font-size: 8px;
+        line-height: 6px;
+        gap: 10px;
+    }
+    .footer__details_media {
+        display: none;
+    }
+    .footer__content {
+        padding: 10px 40px;
         margin: auto;
     }
 }

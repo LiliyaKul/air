@@ -1,4 +1,9 @@
 .burger-menu__open {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 32px;
+    height: 32px;
     padding: 0;
     border: none;
 }
@@ -12,6 +17,14 @@
     position: relative;
     top: 16px;
     left: 16px;
+}
+
+.menu__icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
 
 .menu {   

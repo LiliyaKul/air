@@ -2,7 +2,8 @@
     height: 743px;
     display: flex;
     justify-content: center;
-    margin: 30px 0px 49px;
+    padding-top: 30px;
+    position: relative;
 }
 
 .header__content {
@@ -20,7 +21,6 @@
 .header__banner {
     position: relative;
     display: flex;
-    justify-content: center;
 }
 
 .header__banner__img {
@@ -33,7 +33,6 @@
     font-weight: 700;
     font-size: 60px;
     line-height: 69px;
-    letter-spacing: 0%;
     color: var(--white);
     max-width: 600px;
     display: flex;
@@ -48,7 +47,6 @@
     font-weight: 400;
     font-size: 28px;
     line-height: 33.6px;
-    letter-spacing: 0%;
     color: var(--white);
     position: absolute;
     top: 333px;
@@ -57,19 +55,33 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        margin-bottom: 0px;
+        height: 280px;
+        padding-top: 0px;
+    }
+    .header__content {
+        gap: 10px;
+    }
+    .header__logo {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
     .header__banner__img {
         object-fit: cover;
+        height: 180px;
     }
     .header__banner__title {
-        font-size: 52px;
-        line-height: 60px;
-        left: 80px;
+        font-size: 20px;
+        line-height: 20px;
+        top: 40px;
+        left: 30px;
+        max-width: 250px;
     }
     .header__banner__desription {
-        font-size: 24px;
-        line-height: 28px;
-        left: 80px;
+        font-size: 14px;
+        line-height: 12px;
+        top: 90px;
+        left: 30px;
+        max-width: 250px;
     }
 }

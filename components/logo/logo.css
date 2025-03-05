@@ -3,7 +3,7 @@
     gap: 50px;
 }
 
-.logo__img {
+.logo__icon {
     width: 127px;
     height: 40px;
 }
@@ -40,4 +40,9 @@
     .logo__text {
         display: none;
     }
+
+    .logo__contact__phone_number {
+        font-size: 14px;
+    }
+
 }
