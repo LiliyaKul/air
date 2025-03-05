@@ -13,16 +13,22 @@
                 <div class="container_header">
                     <div class="header__content">
                         <div class="header__logo">
-                            <button id="burger-menu-open" class="burger-menu__open">
-                                <svg class="menu__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 11.4477 2.44772 11 3 11H21C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13H3C2.44772 13 2 12.5523 2 12Z" fill="#212429"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6Z" fill="#212429"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 18C2 17.4477 2.44772 17 3 17H21C21.5523 17 22 17.4477 22 18C22 18.5523 21.5523 19 21 19H3C2.44772 19 2 18.5523 2 18Z" fill="#212429"/>
-                                </svg>                 
-                            </button>
-                            <svg class="logo__icon">
-                                  <use href="./assets/images/icons/sprite.svg#terrace">                                              
-                            </svg>
+                            <div class="header__logo__icon">
+                                <div>
+                                    <button id="burger-menu-open" class="burger-menu__open">
+                                        <svg class="menu__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 11.4477 2.44772 11 3 11H21C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13H3C2.44772 13 2 12.5523 2 12Z" fill="#212429"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6Z" fill="#212429"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 18C2 17.4477 2.44772 17 3 17H21C21.5523 17 22 17.4477 22 18C22 18.5523 21.5523 19 21 19H3C2.44772 19 2 18.5523 2 18Z" fill="#212429"/>
+                                        </svg>                 
+                                    </button>
+                                </div>
+                                <div>
+                                    <svg class="logo__icon">
+                                        <use href="./assets/images/icons/sprite.svg#terrace">                                              
+                                    </svg>
+                                </div>
+                            </div>
                             <div class="logo__text">
                                 <p class="logo__text-item">Каталог</p>
                                 <p class="logo__text-item">Услуги</p>
@@ -45,21 +51,25 @@
                             src="./assets/images/Rectangle 85.jpg"
                             alt="Европейская терраса для вашего дома"
                             >
-                            <div class="header__banner__title">Европейская терраса для вашего дома</div>
-                            <div class="header__banner__desription">Террасная композитная доска в Москве</div>
-                            <button class="button button_medium">Вызвать на замер</button>
+                            <div class="header__banner__description_container">
+                                <div class="header__banner__title">Европейская терраса для вашего дома</div>
+                                <div class="header__banner__desription">Террасная композитная доска в Москве</div>
+                                <button class="button button_medium">Вызвать на замер</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </header>
-            <main class="main">
+            <main class="main page__main">
                 <div class="container">
                     <div class="main__content">
                         <div class="main__title">Что мы можем сделать для вас</div>
                         <div class="main__card-list">
-                            <svg class="arrow" width="31" height="31" viewBox="0 0 31 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7.90198 16.7311L8.55923 16.0738L1.45063 8.9657L31 8.9653L31 8.03566L1.45063 8.03613L8.55922 0.926184L7.90198 0.268934L1.15912e-06 8.17232L1.21658e-06 8.82957L7.90198 16.7311Z" fill="#151414"/>
-                            </svg>                                
+                            <div>
+                                <svg class="arrow" width="31" height="31" viewBox="0 0 31 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.90198 16.7311L8.55923 16.0738L1.45063 8.9657L31 8.9653L31 8.03566L1.45063 8.03613L8.55922 0.926184L7.90198 0.268934L1.15912e-06 8.17232L1.21658e-06 8.82957L7.90198 16.7311Z" fill="#151414"/>
+                                </svg>
+                            </div>                                
                             <div class="card-item">
                                 <img class="card__img"
                                 src="./assets/images/Rectangle 28.jpg"
@@ -88,9 +98,11 @@
                                 >
                                 <button class="button button_large">Строительство и благоустройство</button>
                             </div>
-                            <svg class="arrow" width="31" height="17" viewBox="0 0 31 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M23.098 0.268921L22.4408 0.92617L29.5494 8.0343L0 8.0347V8.96434L29.5494 8.96387L22.4408 16.0738L23.098 16.7311L31 8.82768V8.17043L23.098 0.268921Z" fill="#151414"/>
-                            </svg>                                
+                            <div>
+                                <svg class="arrow" width="31" height="17" viewBox="0 0 31 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M23.098 0.268921L22.4408 0.92617L29.5494 8.0343L0 8.0347V8.96434L29.5494 8.96387L22.4408 16.0738L23.098 16.7311L31 8.82768V8.17043L23.098 0.268921Z" fill="#151414"/>
+                                </svg> 
+                            </div>                               
                         </div>
                     </div>
                 </div>
@@ -198,24 +210,23 @@
                         </form>
                     </div> 
                 </div> 
-                
-                <div class="menu" id="burger-menu">
-                    <button id="burger-menu-close" class="burger-menu__close">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289Z" fill="#212429"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#212429"/>
-                        </svg>                                               
-                    </button>
-                    <div class="menu__list">
-                        <a class="menu__list-item" href="">Каталог</a>
-                        <a class="menu__list-item" href="">Услуги</a>
-                        <a class="menu__list-item" href="">Наши проекты</a>
-                        <a class="menu__list-item" href="">Информация</a>
-                        <a class="menu__list-item" href="">Контакты</a>
-                    </div>
-                </div>
             </div>
-        </div>        
+        </div> 
+        <div class="menu" id="burger-menu">
+            <button id="burger-menu-close" class="burger-menu__close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289Z" fill="#212429"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#212429"/>
+                </svg>                                               
+            </button>
+            <div class="menu__list">
+                <a class="menu__list-item" href="">Каталог</a>
+                <a class="menu__list-item" href="">Услуги</a>
+                <a class="menu__list-item" href="">Наши проекты</a>
+                <a class="menu__list-item" href="">Информация</a>
+                <a class="menu__list-item" href="">Контакты</a>
+            </div>
+        </div>       
     </body>
     <script src="./index.js"></script> 
     <script src="./components/modal/modal.js"></script> 

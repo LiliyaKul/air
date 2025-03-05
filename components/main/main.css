@@ -15,22 +15,28 @@
 
 .main__card-list {
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 @media screen and (max-width: 768px) {
+    .main__title {
+        font-size: 40px;
+        line-height: 50px;
+        align-self: center;
+        text-align: center;
+        margin-left: 0;
+    }
     .main__content {
-        gap: 10px;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .main__card-list {
-        align-self: center;
-        max-width: 375px;
-    }
-    .main__title {
-        font-size: 20px;
-        line-height: 18px;
-        align-self: center;
-        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        flex-wrap: nowrap;
+        align-items: center;
     }
 }

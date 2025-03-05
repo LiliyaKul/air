@@ -7,15 +7,3 @@
 .container_header {
     max-width: 1530px;
 }
-
-@media screen and (max-width: 768px) {
-    .container {
-        max-width: 100vw;
-        height: 100%;
-        overflow-x:hidden;
-    }
-    .container_header {
-        max-width: 100vw;
-        overflow-x:hidden;
-    }
-}

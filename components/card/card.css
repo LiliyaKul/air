@@ -6,7 +6,7 @@
     .card-item_media {
         display: none;
     }
-    .card__img {
-        width: 180px;
+    .card-item img {
+        width: 100%;
     }
 }

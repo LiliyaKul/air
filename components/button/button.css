@@ -25,9 +25,7 @@
 .button_medium {
     width: 181px;
     height: 45px;
-    position: absolute;
-    top: 409px;
-    left: 130px;
+    margin-top: 20px;
 }
 
 .button_large {
@@ -39,26 +37,11 @@
 }
 
 @media screen and (max-width: 768px) {
-    .button_medium {
-        width: 120px;
-        height: 30px;
-        top: 120px;
-        left: 30px;
-    }
-    .button_small {
-        width: 120px;
-        height: 30px;
-    }
     .button_large {
-        width: 120px;
-        height: 40px;
+        width: 150px;
+        height: 64px;
         position: absolute;
-        top: 160px;
-        left: 30px;
+        top: 90%;
+        left: 20%;
     }
-    .button {
-        font-size: 12px;
-        line-height: 10px;
-    }
-    
 }

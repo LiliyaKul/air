@@ -1,5 +1,4 @@
 .header {
-    height: 743px;
     display: flex;
     justify-content: center;
     padding-top: 30px;
@@ -37,9 +36,7 @@
     max-width: 600px;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    top: 165px;
-    left: 130px;
+    text-align: left;
 }
 
 .header__banner__desription {
@@ -48,40 +45,46 @@
     font-size: 28px;
     line-height: 33.6px;
     color: var(--white);
-    position: absolute;
-    top: 333px;
-    left: 130px;
+    text-align: left;
 }
+
+.header__banner__description_container {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    padding: 165px 130px;
+}
+
 
 @media screen and (max-width: 768px) {
     .header {
-        height: 280px;
-        padding-top: 0px;
-    }
-    .header__content {
-        gap: 10px;
-    }
-    .header__logo {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+        padding-top: 10px;
     }
     .header__banner__img {
         object-fit: cover;
-        height: 180px;
     }
     .header__banner__title {
-        font-size: 20px;
-        line-height: 20px;
-        top: 40px;
-        left: 30px;
-        max-width: 250px;
+        font-size: 32px;
+        line-height: 32px;
     }
     .header__banner__desription {
-        font-size: 14px;
-        line-height: 12px;
-        top: 90px;
-        left: 30px;
-        max-width: 250px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .header__logo__icon {
+        display: flex;
+        justify-content: flex-start;
+        gap: 80px;
+        padding: 10px 10px;
+    }
+    .header__logo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header__banner__description_container {
+        gap: 10px;
+        padding: 170px 30px;
     }
 }
